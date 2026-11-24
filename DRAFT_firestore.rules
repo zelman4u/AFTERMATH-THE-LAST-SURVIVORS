@@ -1,0 +1,99 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Global default-deny safety net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isVerifiedOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId && request.auth.token.email_verified == true;
+    }
+
+    function isValidUserProfile(data) {
+      return data.uid is string && data.uid == request.auth.uid && isValidId(data.uid)
+        && data.displayName is string && data.displayName.size() >= 1 && data.displayName.size() <= 120
+        && (!('email' in data) || (data.email is string && data.email.size() <= 254))
+        && (!('photoURL' in data) || (data.photoURL is string && data.photoURL.size() <= 512))
+        && (!('lastCharacterId' in data) || (data.lastCharacterId is string && data.lastCharacterId.size() <= 64))
+        && (!('highestDay' in data) || (data.highestDay is number && data.highestDay >= 1 && data.highestDay <= 100000))
+        && (!('totalKills' in data) || (data.totalKills is number && data.totalKills >= 0 && data.totalKills <= 10000000))
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidGameSave(data, saveId) {
+      return data.saveId is string && data.saveId == saveId && data.saveId.size() <= 64 && isValidId(data.saveId)
+        && data.ownerId is string && data.ownerId == request.auth.uid && isValidId(data.ownerId)
+        && data.version is number && data.version >= 1 && data.version <= 1000000
+        && data.characterId is string && data.characterId.size() >= 1 && data.characterId.size() <= 64
+        && data.mode is string && data.mode in ['story', 'endless']
+        && data.difficulty is string && data.difficulty in ['normal', 'hard', 'nightmare']
+        && data.day is number && data.day >= 1 && data.day <= 100000
+        && data.timeOfDay is number && data.timeOfDay >= 0 && data.timeOfDay <= 24
+        && data.weather is string && data.weather in ['clear', 'rain', 'storm', 'fog']
+        && data.payload is map && data.payload.keys().size() <= 40
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp;
+    }
+
+    match /users/{userId} {
+      allow get: if isVerifiedOwner(userId) && isValidId(userId);
+      allow list: if false;
+      allow create: if isVerifiedOwner(userId)
+        && isValidId(userId)
+        && isValidUserProfile(incoming())
+        && incoming().keys().hasAll(['uid', 'displayName', 'createdAt', 'updatedAt'])
+        && incoming().keys().hasOnly(['uid', 'displayName', 'email', 'photoURL', 'lastCharacterId', 'highestDay', 'totalKills', 'createdAt', 'updatedAt'])
+        && incoming().createdAt == request.time
+        && incoming().updatedAt == request.time;
+      allow update: if isVerifiedOwner(userId)
+        && isValidId(userId)
+        && isValidUserProfile(incoming())
+        && incoming().uid == existing().uid
+        && incoming().createdAt == existing().createdAt
+        && incoming().updatedAt == request.time
+        && incoming().diff(existing()).affectedKeys().hasOnly(['displayName', 'email', 'photoURL', 'lastCharacterId', 'highestDay', 'totalKills', 'updatedAt']);
+      allow delete: if isVerifiedOwner(userId) && isValidId(userId);
+
+      match /saves/{saveId} {
+        allow get: if isVerifiedOwner(userId) && isValidId(saveId) && (resource == null || existing().ownerId == request.auth.uid);
+        allow list: if isVerifiedOwner(userId) && existing().ownerId == request.auth.uid;
+        allow create: if isVerifiedOwner(userId)
+          && isValidId(saveId)
+          && isValidGameSave(incoming(), saveId)
+          && incoming().keys().hasAll(['saveId', 'ownerId', 'version', 'characterId', 'mode', 'difficulty', 'day', 'timeOfDay', 'weather', 'payload', 'createdAt', 'updatedAt'])
+          && incoming().keys().hasOnly(['saveId', 'ownerId', 'version', 'characterId', 'mode', 'difficulty', 'day', 'timeOfDay', 'weather', 'payload', 'createdAt', 'updatedAt'])
+          && incoming().createdAt == request.time
+          && incoming().updatedAt == request.time
+          && exists(/databases/$(database)/documents/users/$(userId));
+        allow update: if isVerifiedOwner(userId)
+          && isValidId(saveId)
+          && isValidGameSave(incoming(), saveId)
+          && incoming().saveId == existing().saveId
+          && incoming().ownerId == existing().ownerId
+          && incoming().createdAt == existing().createdAt
+          && incoming().updatedAt == request.time
+          && incoming().version >= existing().version
+          && incoming().diff(existing()).affectedKeys().hasOnly(['version', 'characterId', 'mode', 'difficulty', 'day', 'timeOfDay', 'weather', 'payload', 'updatedAt']);
+        allow delete: if isVerifiedOwner(userId) && isValidId(saveId) && (resource == null || existing().ownerId == request.auth.uid);
+      }
+    }
+  }
+}

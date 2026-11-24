@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Authenticated survivor player profile metadata isolated per user.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "maxLength": 254
+        },
+        "photoURL": {
+          "type": "string",
+          "maxLength": 512
+        },
+        "lastCharacterId": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "highestDay": {
+          "type": "number"
+        },
+        "totalKills": {
+          "type": "number"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["uid", "displayName", "createdAt", "updatedAt"]
+    },
+    "GameSave": {
+      "title": "GameSave",
+      "description": "Authoritative cloud save slot storing survivor progress, world state, inventory, base structures, and missions.",
+      "type": "object",
+      "properties": {
+        "saveId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "ownerId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "version": {
+          "type": "number"
+        },
+        "characterId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "mode": {
+          "type": "string",
+          "enum": ["story", "endless"]
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["normal", "hard", "nightmare"]
+        },
+        "day": {
+          "type": "number"
+        },
+        "timeOfDay": {
+          "type": "number"
+        },
+        "weather": {
+          "type": "string",
+          "enum": ["clear", "rain", "storm", "fog"]
+        },
+        "payload": {
+          "type": "object",
+          "description": "Structured save state map containing stats, inventory, equipment, base structures, recruited survivors, and mission progress."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "saveId",
+        "ownerId",
+        "version",
+        "characterId",
+        "mode",
+        "difficulty",
+        "day",
+        "timeOfDay",
+        "weather",
+        "payload",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "Private user profile document keyed by Firebase Auth UID."
+    },
+    "/users/{userId}/saves/{saveId}": {
+      "schema": { "$ref": "#/entities/GameSave" },
+      "description": "Private cloud save slots owned exclusively by the user."
+    }
+  }
+}

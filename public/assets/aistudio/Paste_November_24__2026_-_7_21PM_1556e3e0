@@ -1,0 +1,1288 @@
+Absolutely. I would design this as a **3D Open-World Zombie Survival Game** with a realistic survival system, character progression, crafting, exploration, base building, different zombie mutations, boss encounters, and a long-term survival campaign.
+
+The most important thing is that the game should not feel like an ordinary zombie shooting game. It should feel like the player is actually living in a world after a zombie outbreak.
+
+I'll structure the prompt so an AI game developer or game-building platform can understand the complete requirements, including character biographies, zombie classifications, survival mechanics, progression, account authentication, and persistent data storage.
+
+# **Complete Game Development Prompt: AFTERMATH – The Last Survivors**
+
+[死神之地游戏下载-死神之地官网版下载0.0.104-MC中文下载](https://images.openai.com/static-rsc-4/9r8K1dG0VJnYrnxR78-7CMmq8uhe06DOMkfo8aoGhfncwUIgo9wDQAxu0CdWkHmIXYYjntwgllmJvNe102RYQmj8J0sV53UPYbIzIvvtNnx56hZafXvBMTMnrC7_rnbM9Ph9y2uP0oXdC6jdkFVUGssqqwDWipK-4WrQ8nT4mhs?purpose=inline)
+
+[Valley of the Dead: MalnaZidos PS4 & PS5](https://images.openai.com/static-rsc-4/nweRGcoJp8T7v7qae_1TNh-aLyKcjTg_MAhfS1423Euw3sGajyguSijzapsauM8kr2qrHn2ZPukdc7R_GQnm0TzCFiuY3CIoeJSKvtqZfbtXTdJBAMjcTbbpWCikr5Y4ttqMrI6SwqDJitDj_Z8jZZTu5sZeU_TeMQd6rfFB5YY?purpose=inline)
+
+[Diseño de casa LifeAfter: ideas y ejemplos](https://images.openai.com/static-rsc-4/tA-UOis66ALO_CKq6lI7t1ZcJGgw5_8bQR18xKqXc9OIVCKM3_X1cBZLJWcL8VLi8SKoVf0kVLKxDgEx3OUSs9pchZkXumLDYSegpT4HaGyOsb9bUOiSQM3i7nDJsJcRmNhjErQnAI6-t9mRsIwnyrfLRKIDtPTBvpWpL29HHqE?purpose=inline)
+
+15
+
+# **AFTERMATH**
+
+## THE LAST SURVIVORS
+
+3D Open World
+
+Zombie Survival
+
+Day-by-Day Progression
+
+Single Player + Optional Multiplayer
+
+Genre: Survival • Horror • Action RPG • Exploration • Base Building
+
+## **1. Main game concept and world**
+
+**Game title:** AFTERMATH: THE LAST SURVIVORS
+
+Create a realistic, immersive, fully explorable 3D zombie apocalypse survival game.
+
+The story begins on Day 1, when a mysterious infection spreads across cities, towns, villages, hospitals, military installations, and residential communities.
+
+The player is one of the remaining human survivors.
+
+The game must support an extended survival experience:
+
+- Day 1 to Day 7: Initial outbreak and immediate survival.
+- Day 8 to Day 30: Establishing a shelter and finding other survivors.
+- Day 31 to Day 60: Advanced equipment, dangerous exploration, and zombie evolution.
+- Day 61 to Day 100: Large zombie infestations, stronger enemies, and boss encounters.
+- Day 101 onward: Advanced survival, dangerous territories, larger settlements, and increasingly difficult challenges.
+
+These are progression milestones, not an ending. Players must be able to continue surviving indefinitely.
+
+### **World environment**
+
+Create a large open-world map containing:
+
+[\[SCENE\] The Last of Us (Fanart) - Showcase - Epic Developer Community Forums](https://images.openai.com/static-rsc-4/i0ZbX-2ddqtqkGfU2wdfg8ZISD0n8hgH1WG_hZrQo6j9tgnSeuFL201xPkdCeuYHyaP9ShBVNgqKQ-tupckSXgwoLTv0lQw-Wn2MEIDVcqyqUVsbPjA37mexn6nnaZAbqq-0clnUZA63LZWZxdbsyCdPIb2ggRRlpjjoAwBWbBM?purpose=inline)
+
+[Abandoned - Post Apocalyptic Mega Bundle | Cosmos by Leartes](https://images.openai.com/static-rsc-4/qVAD6dRwXvQykXhXIeiV3Qf2ZnFOnS7Hcg0M3u8j8kJUCDU1nM1OHRCex9CNmIMYqhbyQosilQHl8GaAsbNX_x1xYHSdMOdluC9bAez8ueiXEgwABwskjPqzASFjSlM_yx5zDJpx9m3_X8GUzDCNjcW0a8pJPDn1qbVyE-yR_Ns?purpose=inline)
+
+[What is Sons of the Forest, the cannibal survival game that sold 2m copies in a day?  | Games | The Guardian](https://images.openai.com/static-rsc-4/c74Z44Hv9xBBPLVaZxTC9KioXJxUk3-_U7n8ihjEi9Y1KivboDYnylVDBds2dbP1cCV-LiiwM_ZnJ3xujKoTNbVV6ZLs7GBYtfx1CjdZ8QbTc8xpNSV6tcpdhks5un2erHS7yl9Fqo3Ytt6CpL3pjdAkaGKqvQaHJcoqCYj4yOU?purpose=inline)
+
+13
+
+1. **Abandoned City** – Apartments, offices, supermarkets, restaurants, pharmacies, and underground parking.
+2. **Residential Neighborhoods** – Houses, garages, gardens, and abandoned vehicles.
+3. **Hospital District** – Medical supplies, infected patients, laboratories, and dangerous special zombies.
+4. **Military Base** – Firearms, ammunition, protective equipment, vehicles, and high-level enemies.
+5. **Industrial Zone** – Factories, warehouses, mechanical equipment, and crafting materials.
+6. **Forest and Wilderness** – Wildlife, hunting, wood, freshwater, and hidden camps.
+7. **Farmland** – Crops, livestock, farming tools, and food production.
+8. **Underground Facilities** – Secret research laboratories, infection records, and boss encounters.
+9. **Coastal Areas** – Fishing, boats, abandoned ports, and isolated survivor settlements.
+
+Every location should have its own atmosphere, loot possibilities, dangers, and environmental storytelling.
+
+The world must have a real-time day/night cycle, weather changes, rain, thunderstorms, fog, wind, and temperature variation.
+
+## **2. Playable characters – More than 10 men and women**
+
+Create at least 12 playable characters, with six male and six female characters.
+
+Each character must have:
+
+- Full name
+- Age
+- Gender
+- Detailed personal history before the outbreak
+- Occupation
+- Family background
+- How they survived the first outbreak
+- Personality and behavior
+- Special abilities
+- Starting equipment
+- Strengths and weaknesses
+- Unique character storyline
+- Character-specific missions
+- Voice, animations, facial expressions, and realistic appearance
+
+Characters must have different body types, facial features, hairstyles, clothing, and personalities.
+
+Do not make all characters look alike.
+
+### **Male characters**
+
+[Sage Kakkat — The Shark of Wall Street™ | Neo-Noir Finance Epic, Book, Film & World Trade Factory Universe](https://images.openai.com/static-rsc-4/RlQsNR_iwr-S-PXfN15e4G8LvsL9Q56oPJQzI5fhUQCqXmY_ZzzuLWGCBLuM964jO0Dh4Xm1WRc3Uve8kaUQ7RQ4PN1gxV06vFOLoiubfo_DaR6B2MFMSvdfqUuXDo03k9_OGHk5cml22Nee5xdEoearIFZJGUeY06zyn1nhvGw?purpose=inline)
+
+**1. Ethan Walker – The Former Soldier**
+
+Age 34 • Former military sergeant
+
+Ethan served in the military for twelve years. During the first outbreak, his military unit was ordered to protect a civilian evacuation center. The base was eventually overrun, and he lost most of his squad. He escaped carrying his service rifle and a radio.
+
+**Specialty:** Firearms, tactical combat, weapon maintenance.
+
+**Weakness:** Suffers from nightmares and has difficulty trusting strangers.
+
+[Name: Dr. Henrik Zalewski Age: 35 Ethnicity: Polish-Jewish Appearance - SeaArt AI](https://images.openai.com/static-rsc-4/U_ci1FVJiwsFHcOSYFaxwzAS69bC9LfRa2q3hkQNQbV8EMIZ5QPJXDjLF26Uw7bPNh9KMt11-Bi74DIi_2kKSKuua6pUJmRQL-ufcWz3cLIMs9AZp7eerd_xj60a4nTBvQSEm9oJOiQhQSyssRbO4OlW_Q_11Pdz5RftamWwDLs?purpose=inline)
+
+**2. Daniel Brooks – The Doctor**
+
+Age 39 • Emergency physician
+
+Daniel worked in an urban hospital. He witnessed the first infected patients attacking medical staff. He managed to escape with medical supplies and a list of patients who might have been exposed.
+
+**Specialty:** Medical treatment, disease diagnosis, advanced healing.
+
+**Weakness:** Limited combat experience.
+
+[(Updated) The First Descendant Update 1.3.0](https://images.openai.com/static-rsc-4/3mktsp7PIQSqjuAUZxN5VEvKX-pAb56WZBJsaQEsQUw8EpPz9QT5cL7wcIP5T68AFw-5C3ohZ8Vu-4UqEEvcyjlERIcup8Po8-Z34xetg9cS6xE9NOp7-lHdN9epQzSTy3jNhxSRC1ncEz9ByOo8SjCDTUoXRsXh9Tns5gr9iPM?purpose=inline)
+
+**3. Marcus Reed – The Mechanic**
+
+Age 29 • Automotive mechanic
+
+Marcus owned a small automotive repair shop. When the infection spread, he barricaded himself inside his workshop. His knowledge of engines, batteries, and machinery helped him survive.
+
+**Specialty:** Vehicle repairs, generator construction, mechanical crafting.
+
+**Weakness:** Poor endurance and limited medical knowledge.
+
+[EFT Quest Tracker - Escape from Tarkov Tasks | TTracker](https://images.openai.com/static-rsc-4/mw5_iifTCZPxE7KjAyw15dohcVwuJT2YXqdIS78dkx6i715RLD5nhzRtRH-YalUpNjIIPh99vQTP0b1HfutjXLWs7quTXh5_cGCVk3qU5l9v_CpsxpuKtzmWbArZAxpq4XX-pmiRV1uj-5W1S6nKNJc-3Fdgpm_L65wdM6hfSFo?purpose=inline)
+
+**4. Noah Bennett – The Hunter**
+
+Age 36 • Wildlife hunter and guide
+
+Noah lived near a forest reserve. He noticed strange animal behavior before the outbreak reached his community. He survived by hunting, setting traps, and finding isolated water sources.
+
+**Specialty:** Hunting, tracking, stealth, wilderness survival.
+
+**Weakness:** Less effective with advanced technology.
+
+[The Journey of a Young Man | Story.com](https://images.openai.com/static-rsc-4/T29w-_rgH0E6b1C8hBDu73_JvDiaqXDUh6M0m1IFK2iaAoxqWYU8DXOVr7DtMuiKZOJFt2arJRm_i8iOEuS86oS9v7NshKtrMNzmlecGp5tdTuvtZZJikLRogauw6THS4rjrUQRjmOhy7rb2Pi3ADdNS9Z2VonLnM0VCAE6GfHM?purpose=inline)
+
+**5. Lucas Carter – The Engineer**
+
+Age 25 • Electrical engineering graduate
+
+Lucas was working on a solar-powered research project when the outbreak began. He survived inside a university laboratory and later escaped using equipment he had repaired.
+
+**Specialty:** Electrical systems, traps, electronics, solar energy.
+
+**Weakness:** Low initial combat and physical endurance skills.
+
+[The Greedy Farmers | Story.com](https://images.openai.com/static-rsc-4/gYV6IaOZnpw6LACUCWEaVOFNWTdwGGir3RxRUg37amWBNoGyTQnyY79HG5MoBBwuK3lOmKhQCJ-G06sHI6X_WRi8ss3j4M97qnReFmYfr_1n0NogzxjfJGdzUPGOW_5jRa_WfrsqiNuiFgZkG2wx3-SFauqOm1-bESuZZKGPNzQ?purpose=inline)
+
+**6. Samuel Hayes – The Farmer**
+
+Age 52 • Agricultural farmer
+
+Samuel spent most of his life managing a family farm. When the infection reached his village, he protected his family inside a fortified farmhouse. He later lost contact with them while searching for medicine.
+
+**Specialty:** Farming, food production, animal care, resource management.
+
+**Weakness:** Slower movement and lower sprint endurance.
+
+### **Female characters**
+
+[Talkie Profile Jill Valentine  | Talkie AI](https://images.openai.com/static-rsc-4/h-3scpCbyF7Id_vEJgss5VEA1FEeVsDulMQ69jap5ZuCqnGRsGgvn_ZZa9jTMOPlRchTJRIIGuNxjUknI0HaytZA4wroOQl4wlt2PJy_k1AgT3nIY7a6nnQS2Vw3od0eY0K7e0GUUs3V71fYuHwWryjF0uNiP4Ko9vKmyBcnu44?purpose=inline)
+
+**7. Sophia Martinez – The Police Officer**
+
+Age 31 • Police officer
+
+Sophia was assigned to control traffic and protect civilians during the first outbreak. Her police station was eventually surrounded. She escaped with her equipment and attempted to rescue trapped residents.
+
+**Specialty:** Firearms, defensive tactics, crowd control.
+
+**Weakness:** Carries emotional trauma from people she could not save.
+
+[Back 4 Blood characters: all cleaner abilities and weapons | TechRadar](https://images.openai.com/static-rsc-4/dwhCUFRaJzB13HTDzz9LuTU_pNXnZLxlohJW8vxNUBv_zIyEWkav8TUQbNA7qJPRJfwexoATZNTy5keSuuFohBOQBYUIeTlvRsaK4wepb05YzmW371C8Y-MMxjcvTE1W21QKVLk_-MSsgW8rWf-3uIlDUex8ijuMKTXqgzg-n6M?purpose=inline)
+
+**8. Amelia Foster – The Nurse**
+
+Age 27 • Registered nurse
+
+Amelia worked in a community hospital. She helped evacuate injured patients before the hospital was overrun. She now searches for a safe place where she can continue treating survivors.
+
+**Specialty:** First aid, medicine, wound treatment, infection monitoring.
+
+**Weakness:** Lower starting weapon proficiency.
+
+[Dr. Mira Voss - 3D Character Simulation by Jabali AI](https://images.openai.com/static-rsc-4/ti3XzwkQT4Dg19rlh3NVkEfOTcdTiSruTYYfGh0Hw284hHkpV_TVag85gvFmL7jlJauTaZR61t7rtVi_k-ALl5BhnXYiu_OfnSbnjJgJWf_jg2UzbNQhf3q62EwcBI2rCDFenjp6jf-3aliMe5OvfdKBpamfVOsrpag-UqkiYU4?purpose=inline)
+
+**9. Victoria Chen – The Scientist**
+
+Age 33 • Virologist
+
+Victoria worked at a biological research laboratory studying infectious diseases. Before the outbreak, she discovered unusual mutations in an experimental sample. She believes the infection may have originated from a failed research program.
+
+**Specialty:** Infection research, laboratory crafting, biological analysis.
+
+**Weakness:** Limited physical strength and combat experience.
+
+[【キャラクター名鑑】09　自然っ子　レイチェル・カーニー｜神代崎 恒一](https://images.openai.com/static-rsc-4/ZfpeGo3j1lhJHn_6kFCG-ZNsqCEO2AfNrziceBriFoes9uC_IovdCYpGh1ga2RRckRO70KUUsNcp86c9X8dfWWpLTglXz69rspjm4x5IAa2YnEekgp7cWdLbQwx7jJL3_cOoQJeAj4nrP31ToqUod3yRG4XobjCyv_aI9XziqDQ?purpose=inline)
+
+**10. Rachel Morgan – The Ranger**
+
+Age 30 • Forest ranger
+
+Rachel maintained a remote forest reserve. She knows hidden trails, animal habitats, and isolated shelters. When the outbreak spread, she helped stranded campers escape.
+
+**Specialty:** Navigation, tracking, hunting, stealth.
+
+**Weakness:** Less experienced with firearms maintenance.
+
+[A gritty portrait of a female mechanic in a staine | dirty_biker on BudgetPixel](https://images.openai.com/static-rsc-4/otvxHuS9qAxYzorrQmD0UAMnDR6MPp9kpHBv3lSM5q6WdHiSwbTRcRwp_lnGBAuzyDeVbEz3stAkQfIu5O8UD78Yev9i-Sk0lyZKJu-q-rQrsRUqOs7A7HoMSWxtF1cuBRJ8ZwMDmrK4UjxvuHWD5HYHEE8wpfTU9AayC5_Nukc?purpose=inline)
+
+**11. Olivia Parker – The Engineer**
+
+Age 26 • Mechanical engineer
+
+Olivia was developing an emergency power system for residential buildings. During the outbreak, she repaired an emergency generator and used it to keep her apartment building operational.
+
+**Specialty:** Machinery, defensive structures, crafting, generators.
+
+**Weakness:** Moderate stamina and limited medical skills.
+
+[Evelyn Carter - Character Life Simulation by Jabali AI](https://images.openai.com/static-rsc-4/XQH-k34hSyTZpL-6mIvTXZaBP0UzEBmzzK_0O9pLToDJyRISF9fPsVURilsqs2woUd-o6tRxM-pcZQMYhV2novFEXwW2Xzn3dzaMgxY0fS3wKY0sTcg6l5ZgejbYwdPMrZQ3bDGQDgusBaN7Poslvfz8tgAbSq4JXyLCDqzUKBI?purpose=inline)
+
+**12. Isabella Torres – The Journalist**
+
+Age 28 • Investigative journalist
+
+Isabella was investigating reports of missing people and unusual hospital incidents before the outbreak. She collected recordings, photographs, and confidential documents. She survived by hiding in an abandoned media building.
+
+**Specialty:** Investigation, information gathering, stealth, finding hidden locations.
+
+**Weakness:** Limited starting combat and crafting skills.
+
+### **Character selection and progression**
+
+- Allow players to select any unlocked character.
+- Provide different starting scenarios based on character history.
+- Characters must have unique dialogue, idle animations, walking styles, and combat animations.
+- Skills must improve through actual gameplay.
+- Provide character-specific missions that reveal their past.
+- Allow players to unlock additional outfits, hairstyles, equipment, and cosmetic items.
+- Characters should have relationships with other survivors.
+- Allow recruiting NPC survivors into a settlement.
+- Character abilities should be balanced so no character is universally superior.
+
+The 12 characters above are the initial roster. Expand it with additional survivors as the game develops.
+
+## **3. Zombie enemies – Different types, histories, and mutations**
+
+Zombies should not all behave identically. Every type must have unique appearance, movement, attack patterns, detection abilities, weaknesses, sounds, and background lore.
+
+[Long Time Dead: Zombie Character and Clothes for Genesis 9 | Daz 3D](https://images.openai.com/static-rsc-4/-7QGANKpA_siD9Mnua9T7MKLfRTg3-TcEx8xzkqfZpY7zXr-GnLSE21G-AmF6BxxcU_but-DfNjTfUC6wn1XxsSutVYeIrIb5jKRHXfTfpNFa_O8a-JKN4XGj_QsctPyDf77OxGTvXgSgZV90aRux2TAzY7BHwv5jDyrH3pWXrk?purpose=inline)
+
+[Infected Collection](https://images.openai.com/static-rsc-4/NQhEhiE54UFeztGpxr3lunQq6TogWrf0JUttsACFIUEaRsb6AUH2JAWbqnsCIrGoAkimkw4zk1NeV8ZEPLkCqG7eWFps_psak1cxJKgu8t3kNlkI3MSFZp2JdF754pNYEaq8Q240nfT_yfDNW2B5Rkwailb-aOmI35xt6rbj4yY?purpose=inline)
+
+[Tanque Zumbi Modelo 3D - TurboSquid 1077629](https://images.openai.com/static-rsc-4/L3rxHU0pOdmBC-lKfUKFeCjPWu8zr-U8dtvLY2nICtlGtG_23P7N0yjJ9aaTzgfV9_wq-vpdZNmEqmHhPbKrKkZ-4qrcFdXtdF56jInSEkTT4t08ocwEdZnHTXMgHMznx27gcghQ3ve76S6WL5maqitEnqhHNbhLQqLvmHcKDkQ?purpose=inline)
+
+14
+
+### **Zombie classification**
+
+Tier 1 – Common Infected
+
+**1. The Walker**
+
+History: Former ordinary civilians infected during the first outbreak.
+
+- Slow movement.
+- Low health.
+- Detects nearby players through sound and vision.
+- Appears in houses, streets, and buildings.
+- Usually travels in small groups.
+
+**2. The Runner**
+
+History: Newly infected individuals whose nervous systems remain highly active.
+
+- Runs quickly.
+- Chases players over long distances.
+- Low-to-medium health.
+- Dangerous in open spaces.
+- Can knock down an unprepared player.
+
+**3. The Crawler**
+
+History: Severely injured infected individuals who have lost normal walking ability.
+
+- Crawls under vehicles and furniture.
+- Difficult to see in dark environments.
+- Can grab the player's legs.
+- Frequently hides inside buildings.
+
+Tier 2 – Mutated Infected
+
+**4. The Screamer**
+
+History: Infected individuals whose vocal systems mutated, allowing them to produce extremely loud sounds.
+
+- Calls nearby zombies.
+- Can alert entire neighborhoods.
+- Weak physical defense.
+- Must be eliminated or avoided quickly.
+
+**5. The Brute**
+
+History: A heavily mutated infected individual with unusually developed muscle tissue.
+
+- High health.
+- Powerful melee attacks.
+- Can destroy weak barricades.
+- Slow movement but dangerous at close range.
+
+**6. The Spitter**
+
+History: An infected individual whose body developed corrosive biological secretions.
+
+- Attacks from a distance.
+- Produces toxic pools.
+- Forces players to move constantly.
+- Particularly dangerous in confined spaces.
+
+**7. The Stalker**
+
+History: An infected individual whose mutations have changed its movement and sensory behavior.
+
+- Hides in shadows.
+- Moves quietly.
+- Ambushes players.
+- Retreats when seriously injured.
+
+Tier 3 – Elite Infected and Bosses
+
+**8. The Juggernaut**
+
+[State of Decay 2 Plague Juggernaut Wallpaper, HD Games 4K Wallpapers, Images and Background - Wallpapers Den](https://images.openai.com/static-rsc-4/6VfYtgUQEwdul_lluOCjJbBd1V1WPVjsIP4IB0laKe4ujUZLlZAE0yK_UIZ0GbQGVKXqAOAcItQ6wZi_AlvsjzpJ27MJ8ygZjkAGosZBKE1T55tNyZgg2B07B1TAB-8KBNFdQiNhJAIsU4kfbR7nbKdz4XIAzyDUZe7hLfi4xYg?purpose=inline)
+
+[wallpapersden.com](https://wallpapersden.com/state-of-decay-2-plague-juggernaut-wallpaper/2560x1476/?utm_source=chatgpt.com)
+
+History: A former industrial worker exposed to an unusually concentrated infection. His body developed massive muscular growth and hardened tissue.
+
+- Extremely high health.
+- Can break fortified doors.
+- Heavy ground-smashing attacks.
+- Resistant to ordinary melee weapons.
+- Drops rare crafting materials and advanced armor components.
+
+**9. The Alpha Hunter**
+
+[Dying Light пройден: как я научилась не падать с крыш и не бояться ночи | StopGame](https://images.openai.com/static-rsc-4/5s02aZAwA8TUk3-cB7tjQK77c_-qq0Ef80gNR99mx-ZdubO6QBP9wWK8KZHgrpZBO2agZMGWSib0S2wOxalrsuErvYRWWDswQSjrEwa196zXDiryLbFQQGrsLpE351_9Yk1xAQVFtZHWpdGkLucm-GmEz2coCyeh_8KN6leBvaE?purpose=inline)
+
+[stopgame.ru](https://stopgame.ru/blogs/topic/120070/dying_light_proyden_kak_ya_nauchilas_ne_padat_s_krysh_i_ne_boyatsya_nochi?utm_source=chatgpt.com)
+
+History: A former military reconnaissance operative who became infected during a classified evacuation mission. His mutations enhanced his senses and mobility.
+
+- Extremely fast.
+- Tracks players through environmental clues.
+- Can climb certain structures.
+- Uses surprise attacks.
+- Drops rare biological samples and military equipment.
+
+**10. The Plague Mother**
+
+[Army of the Dead | Geeks](https://images.openai.com/static-rsc-4/Ki5OPhmBbWw0agXIvFSEis4WXTUv61mlw2xLGOhzlnUVUMXRpFoRDSyf6I0Iq8674jZapB2F0iZ1db3Ev_Wx1E0Ut1QaFaC0GGMwxSulUUnyG_BujdQ2YPdJU1SS997cOKLb2sP_NYcN4eqxYB2W_r9Yakkmfaoyl9Io-pPeMwY?purpose=inline)
+
+[vocal.media](https://vocal.media/geeks/army-of-the-dead?utm_source=chatgpt.com)
+
+History: A former medical researcher who was exposed to an experimental infection strain. Her body became a breeding ground for highly infectious organisms.
+
+- Controls groups of smaller infected.
+- Releases dangerous spores.
+- Creates temporary infected nests.
+- Has multiple combat phases.
+- Drops rare research materials.
+
+**11. The Warden**
+
+[Firebase Z Wonder Weapon | GamesRadar+](https://images.openai.com/static-rsc-4/Q2GQJ9DZ626emvRwvvgIAU0DlpsajigHlJXcbCAqGAO5EALgY2EBA2WPILirzcLJx6A97RtvwuR7PupEo-fgYmRRWSStflWeTTHhCHZnPDKY5-NOMP5T-L7ejztVnE95zWyQa_roIaZR9Nu-l3QVAdhzoUZIGgLgUB9I7hCpgk4?purpose=inline)
+
+[gamesradar.com](https://www.gamesradar.com/cold-war-zombies-firebase-z-wonder-weapon/?utm_source=chatgpt.com)
+
+History: A former military commander who remained inside an underground defense facility after the evacuation failed. He became infected while wearing experimental protective armor.
+
+- Heavy armor.
+- High damage resistance.
+- Powerful charge attacks.
+- Commands nearby elite infected.
+- Guards military supply locations.
+
+**12. The Origin – Final World Boss**
+
+[Toxic Commando The Drop Mission Walkthrough \[Full Guide\] | GAMES.GG](https://images.openai.com/static-rsc-4/QlVqqP_KA3zw35Qh7Q0sOc98uCM9yLvsi6tqEZAD0WdV5l72YLyR0F47jRm02JezWaKcyd1u2ZbVD8kCONSTGLva5Tya8Cxhpv9uJjRXjLcNHnbKp0fGYb0k1mAeeHxDpdbVh4IbxaGQu57EtEgJK06aXyG2ivhBOVOW1R2_2U0?purpose=inline)
+
+[games.gg](https://games.gg/john-carpenters-toxic-commando/guides/toxic-commando-the-drop-mission-walkthrough/?utm_source=chatgpt.com)
+
+History: The original patient connected to the earliest documented infection cases. The Origin was once a human subject involved in a secret medical experiment. Its mutation developed beyond every previously recorded infected strain.
+
+- Multiple combat phases.
+- Unique attack patterns.
+- Summons other infected.
+- Changes its behavior depending on player strategy.
+- Requires preparation, upgraded equipment, and resources.
+- Unlocks the final story revelations.
+
+The Origin should not be defeated during the first few days. Its territory should become accessible through story progression.
+
+**Important zombie AI requirements:**
+
+- Zombies must have independent AI behavior.
+- They should investigate noises, follow footprints or other clues where appropriate, and respond to environmental disturbances.
+- Zombies should be attracted to gunshots, explosions, alarms, and generators.
+- They must be able to attack doors, windows, barricades, and exposed structures.
+- Some zombies should appear only at night or in specific locations.
+- Bosses should have unique animations, sounds, health bars, and attack phases.
+- Zombie difficulty should increase gradually, not unfairly.
+
+## **4. Realistic survival mechanics**
+
+The game must simulate the basic needs of a human being surviving in a dangerous environment.
+
+[Survival Game UI - Arthur de Padua - UI/UX Designer](https://images.openai.com/static-rsc-4/CViJtKSbfpFMElp6zfL5pKMZHfmhHb2kf3iw8mnyDPXQUyNJXh3EU3QNBYDq7hYSNzgyd5FacOqfGReGDX2Zdqf4wjUEIOwV0Z9GC8yj0CmFD2oKyAONzcZYM8alJk0hEv_MfDxf3qIKy0p50TUjB_YnHdJYAE2NZFZy0wCP_o8?purpose=inline)
+
+[How to Hunt and Gather Food in SCUM: A Beginner’s Guide](https://images.openai.com/static-rsc-4/ziW5U0kJrUX7Vdzusowlvdh568PVeCx7BJ-5GiW0WfqI-ygcpgxrHRsKFrLaqntsJuSNXamvoj3LvSR4N73Hpwsmo5t0mqC2lSwL2coSNOyJGc0q1bsBfVOW9Iwq7kmK2hHvTlgrXjfyxVeTMtuj-JintojRhMLQfQdCx95ANw0?purpose=inline)
+
+[Remain on Steam](https://images.openai.com/static-rsc-4/FCnqM8fYlTSYzDCQiVvqsrhkbrq82PYpFlkosxC-yZoCN1iTwh8gfS2YIv63kn-TWSlxqIron6smIo9zRfggLV-P9IC9MVY0i_1t1eKTMG7x4NOZxn5k8IPfjziuqiplEOSBKYIlOfmnm_ghpwj0C8YgvnRf_cs-c7yztypOx_c?purpose=inline)
+
+18
+
+### **Player survival statistics**
+
+Every character must have these statistics:
+
+| Statistic        | Function                                                         |
+| ---------------- | ---------------------------------------------------------------- |
+| Health           | Overall physical condition                                       |
+| Hunger           | Decreases as time passes                                         |
+| Thirst           | Decreases faster than hunger                                     |
+| Stamina          | Used for running, fighting, and carrying out physical activities |
+| Energy           | Represents exhaustion and sleep requirements                     |
+| Body Temperature | Affected by weather and clothing                                 |
+| Infection        | Tracks exposure to the zombie infection                          |
+| Blood            | Affects health after severe injuries                             |
+| Sanity           | Affects the character's psychological condition                  |
+
+Additional conditions:
+
+- Bleeding
+- Broken bones
+- Wounds
+- Fever
+- Food poisoning
+- Dehydration
+- Exhaustion
+- Sleep deprivation
+
+A player must be able to treat these conditions using medicine, bandages, food, water, rest, and other appropriate resources.
+
+### **Food and water system**
+
+Create a large variety of collectible food and beverages.
+
+**Food categories:**
+
+- Canned beans
+- Canned meat
+- Sardines
+- Instant noodles
+- Rice
+- Bread
+- Biscuits
+- Chocolate
+- Cereal
+- Fresh vegetables
+- Fruits
+- Meat
+- Eggs
+- Fish
+- Cooked meals
+- Dried food
+
+**Water and beverages:**
+
+- Bottled water
+- Purified water
+- Rainwater
+- Dirty water
+- Juice
+- Energy drinks
+
+Allow players to:
+
+- Search refrigerators, cupboards, restaurants, and grocery stores.
+- Cook raw food.
+- Collect rainwater.
+- Purify contaminated water.
+- Build farms and grow vegetables.
+- Hunt animals.
+- Fish in lakes and rivers.
+- Preserve food for future use.
+- Experience food spoilage if storage conditions are poor.
+
+Do not make food and water unlimited. Resource availability should depend on the location, time, and world settings.
+
+### **Loot and resource collection**
+
+Every searchable location must have different loot categories.
+
+| Location       | Possible resources                         |
+| -------------- | ------------------------------------------ |
+| Supermarket    | Food, beverages, household supplies        |
+| Pharmacy       | Medicine, bandages, disinfectants          |
+| Police station | Pistols, ammunition, protective gear       |
+| Military base  | Rifles, tactical equipment, rare supplies  |
+| Hospital       | Medical equipment, medicine                |
+| Garage         | Tools, fuel, mechanical parts              |
+| Houses         | Clothing, food, household objects          |
+| Factory        | Metal, machinery, crafting materials       |
+| Forest         | Wood, plants, hunting resources            |
+| Laboratory     | Research documents, experimental materials |
+
+Implement randomized loot generation with rarity levels:
+
+- Common
+- Uncommon
+- Rare
+- Epic
+- Legendary
+- Experimental
+
+Loot should regenerate only according to a configurable world respawn system. Do not allow players to repeatedly collect unlimited resources from the same container.
+
+## **5. Weapons, armor, and equipment upgrades**
+
+[Create realistic 3d gun model 4k7 gun weapon assets props for your game by Don_gee3 | Fiverr](https://images.openai.com/static-rsc-4/FcSKpKagA-Iie3Odt45D9Ayct6v8bIqFB3KiV543Tf8nIPQRcjT9XMxiJnjj0PN3yENyDIKgK0hvPw8TdGCOvgRTj1bCKD2MsfTtjW7cAcpBqYILljaO2xUdtdzvk2NcVqQTAWhcxpLAmKmX-AjOKefwE4cEwQv_OUzioISDtGs?purpose=inline)
+
+[Last Day on Earth: Survival - Games App | MWM](https://images.openai.com/static-rsc-4/sDeupqsrrvsHH3cdUcVuV86gm8Nqb3O7umwq-ldGwLWy-DCvpyayPpZ613_f7TCZR1PUZ7b54-Poclo3pKkG1vIB6fMWD2lVRFQZts-tEbsT4yMN6Yp9w77Vqnvyyi8ldwnO8i1Sv8ogqRHB4FsmS7jj1PUMh1P2V1KhYda6FnI?purpose=inline)
+
+15
+
+Provide a large equipment collection.
+
+**Melee weapons**
+
+- Wooden bat
+- Baseball bat with nails
+- Crowbar
+- Kitchen knife
+- Hunting knife
+- Machete
+- Fire axe
+- Sledgehammer
+- Spear
+
+**Firearms**
+
+- Pistols
+- Revolvers
+- Shotguns
+- Submachine guns
+- Assault rifles
+- Hunting rifles
+- Sniper rifles
+
+**Protective equipment**
+
+- Cloth clothing
+- Leather jackets
+- Motorcycle helmets
+- Tactical helmets
+- Protective vests
+- Military armor
+- Gas masks
+- Protective gloves
+- Boots
+
+**Backpacks**
+
+- Small backpack
+- School backpack
+- Hiking backpack
+- Tactical backpack
+- Military backpack
+- Advanced expedition backpack
+
+### **Equipment upgrade levels**
+
+Every upgradeable item must have a progression system.
+
+Example:
+
+| Level   | Weapon condition      |
+| ------- | --------------------- |
+| Level 1 | Basic weapon          |
+| Level 2 | Improved durability   |
+| Level 3 | Better damage         |
+| Level 4 | Advanced attachments  |
+| Level 5 | Specialized equipment |
+
+Allow weapon customization:
+
+- Scopes
+- Flashlights
+- Silencers
+- Extended magazines
+- Grips
+- Stocks
+- Weapon durability
+- Reload speed
+
+Armor must have durability and protection statistics.
+
+Backpacks should have different storage capacities and weight limits.
+
+**Important:** Strong equipment should require materials, crafting recipes, and workbench levels. It should not simply become available by clicking an upgrade button.
+
+## **6. Crafting and base building**
+
+The player must be able to establish a permanent or temporary shelter.
+
+[Diseño de casa LifeAfter: ideas y layouts eficientes](https://images.openai.com/static-rsc-4/Zx9V3rOcbBI_eR5hVZdFBUnDlDwsqPd0ZfpjUU9CzV61GbkjPhM9YC2GT4kXHED_mAlsdewfAa_7ztclc_fPp3Nz_I84aHyOXZ6gyHQo9ibx05BJccJdUsfv5EvSHQuEYP7AxFA-DrD8Dr7Xb_s3xoqtjuwJ9c_nAtRck1FQ0Qg?purpose=inline)
+
+[Night of the Dead (Jackto Studios) (RUS/ENG/Multi16) \[L\]](https://images.openai.com/static-rsc-4/EvmHSKFAqqKVkhTqvfQSIbZKM0Q9bsl3zxDxEqGF3bQudzD6QtZOBjvi4eyQzos1rw4LqQH3pK3FzmVLhElhQ81LTHKP3dch5dKwoc1LdJVeg1aARhLsDQSGYWqhmw0tsLNOUfix970_sPx-exPW3KsY9dv8jxRwIqk5gZ3qT20?purpose=inline)
+
+[Last Hope Bunker: Zombie Survival on Steam](https://images.openai.com/static-rsc-4/isaT9ou4yvmS-rcdp1Ccx_Thi_uodDpKqUzJRreEPWz8H3zfq5sRpn7Sj7Hk3STkDEna9nL91EmIsLs2eJcooUNOxpjocZkAzSIqN57cLRb5hvPSP6r7nstKhTl0gaGHU2XpFzcLRQ5gdF_fZImVkXvkR5kvrfMVublpcwji9fQ?purpose=inline)
+
+18
+
+### **Base building structures**
+
+- Wooden walls
+- Metal walls
+- Reinforced gates
+- Doors and windows
+- Watchtowers
+- Barricades
+- Sleeping beds
+- Storage containers
+- Workbenches
+- Cooking stations
+- Water collectors
+- Water purifiers
+- Medical stations
+- Generators
+- Solar panels
+- Lighting systems
+- Farms
+- Animal pens
+- Defensive traps
+
+### **Base management**
+
+The player must manage:
+
+1. Food supplies.
+2. Water supplies.
+3. Electricity.
+4. Medical resources.
+5. Building materials.
+6. Survivor population.
+7. Base security.
+8. Noise levels.
+
+Zombies should be capable of detecting a noisy base. A generator, gunfire, or loud machinery may attract nearby infected.
+
+Allow players to upgrade their base from a simple abandoned house to a heavily fortified survivor settlement.
+
+## **7. Survivor recruitment and community management**
+
+The world should contain other human survivors.
+
+Some are friendly, some are frightened, some are hostile, and some have hidden intentions.
+
+Allow players to:
+
+- Rescue survivors.
+- Recruit them.
+- Assign jobs.
+- Give them equipment.
+- Send them on resource-gathering missions.
+- Assign them to guard duty.
+- Assign medical personnel to the infirmary.
+- Assign farmers to food production.
+- Assign engineers to maintenance.
+- Build relationships and friendships.
+
+Every recruitable survivor must have a name, background, personality, skills, and personal history.
+
+Add a trust system. Survivors may become loyal, suspicious, frightened, or hostile depending on the player's decisions.
+
+Some survivors may leave the settlement if their needs are neglected.
+
+## **8. Day-by-day survival progression**
+
+The game must have an actual in-game calendar.
+
+## **Survival timeline**
+
+1. **Day 1–3: The Outbreak**
+
+   The player escapes the initial outbreak, finds basic supplies, and searches for temporary shelter. Common infected dominate the streets.
+2. **Day 4–7: First Shelter**
+
+   Players establish a shelter, find food and water, craft basic weapons, and encounter their first special infected.
+3. **Day 8–15: Expansion**
+
+   Introduce larger exploration areas, survivor recruitment, improved equipment, and more dangerous zombie groups.
+4. **Day 16–30: Settlement**
+
+   Establish a functioning base with electricity, farming, water purification, and defensive structures.
+5. **Day 31–60: Mutation**
+
+   Introduce elite zombies, dangerous weather, infected territories, and advanced equipment.
+6. **Day 61–100: The Dead Zones**
+
+   Introduce boss encounters, military operations, abandoned research facilities, and major settlement threats.
+7. **Day 101–200: Human Conflicts**
+
+   Introduce hostile survivor factions, resource wars, stronger bosses, and complex story missions.
+8. **Day 201 onward: Endless Survival**
+
+   Dynamic zombie outbreaks, increasingly dangerous territories, advanced crafting, and procedurally varied survival events.
+
+### **Dynamic world events**
+
+Make the world unpredictable.
+
+Examples:
+
+- Zombie horde approaching the base.
+- Distress signal from a nearby building.
+- Military helicopter crash.
+- Abandoned supply convoy.
+- Survivor requesting medical assistance.
+- Mysterious radio transmission.
+- Power station failure.
+- Sudden infected outbreak.
+- Rare loot convoy.
+- Nighttime boss appearance.
+
+Events should be generated according to world conditions and player progression.
+
+## **9. Exploration, vehicles, and transportation**
+
+Allow players to discover and repair different vehicles.
+
+- Cars
+- Pickup trucks
+- Motorcycles
+- Vans
+- Military transport vehicles
+- Off-road vehicles
+- Boats
+
+Vehicles should require fuel, maintenance, and repairs.
+
+Include:
+
+- Fuel consumption.
+- Vehicle damage.
+- Tire damage.
+- Engine condition.
+- Storage capacity.
+- Repair materials.
+- Vehicle noise attracting zombies.
+
+Players should also be able to travel on foot, sprint, crouch, climb certain obstacles, swim, and use stealth.
+
+## **10. Missions and story development**
+
+Create a main storyline explaining the zombie outbreak.
+
+The main storyline should be divided into chapters.
+
+**Chapter 1: The First Day**
+
+Escape the infected city and find a safe location.
+
+**Chapter 2: The Missing Signal**
+
+Investigate a radio transmission coming from an abandoned emergency station.
+
+**Chapter 3: The Survivors**
+
+Discover a group of survivors and decide whether to trust them.
+
+**Chapter 4: The Research Facility**
+
+Discover documents connecting the infection to an experimental research project.
+
+**Chapter 5: The Military Secret**
+
+Investigate a classified military facility and uncover the history of the infection.
+
+**Chapter 6: The Evolution**
+
+Discover why certain infected individuals become more powerful than others.
+
+**Chapter 7: The Origin**
+
+Confront the truth behind the first infection and prepare for the final boss.
+
+Do not force players to complete missions in a linear order. Allow optional missions, exploration, and free survival alongside the main storyline.
+
+## **11. Gmail login, player accounts, and cloud saving**
+
+Essential system requirement
+
+The player must log in before accessing the actual game.
+
+### **Authentication screen**
+
+[Tomorrow: MMO Nuclear Quest Beginner Guide – Survive the Apocalypse with Best Tips](https://images.openai.com/static-rsc-4/Wu-K9zspOqc9Xr1Ir6gY5fxLZTqCw2Kr44pxvmkJtmhspIP-QrUa4PwFe_csfqgehGCCzyRzKzWxlkBtML8B-q1EDIClBTF39pxdpaw87PxVDbldEkLCn602Cx9VgAJyudkyqMnYuqmTDWW7y6OfEqzByqiq1VJLTCAO7tB9_3A?purpose=inline)
+
+[ldplayer.net](https://www.ldplayer.net/blog/tomorrow-mmo-nuclear-quest-beginner-guide.html?utm_source=chatgpt.com)
+
+Create a professional login interface with:
+
+- Game logo and title.
+- Sign in with Google.
+- Gmail/Google account authentication.
+- New player account registration through Google.
+- Forgot account assistance.
+- Privacy Policy and Terms of Service.
+- Loading animation.
+- Login success and failure messages.
+
+Use official Google OAuth authentication. Never request or store the player's Gmail password directly.
+
+### **Recommended data architecture**
+
+I recommend a cloud-based architecture rather than saving everything only on the player's computer.
+
+## **Game data architecture**
+
+**Player**
+
+Google / Gmail account
+
+**Google Authentication**
+
+Secure account verification and player identity
+
+**Game Backend**
+
+Validates and processes game progress
+
+**Cloud Database**
+
+Player profiles, inventory, world state, missions
+
+**Local Save**
+
+Temporary cache and offline progress
+
+**Persistent Cloud Save**
+
+Progress available across supported devices
+
+### **Recommended technologies**
+
+For a serious 3D survival game, I recommend:
+
+| Component      | Technology                                |
+| -------------- | ----------------------------------------- |
+| Game engine    | Unity 6 or Unreal Engine 5                |
+| 3D rendering   | HDRP / Unreal Engine rendering            |
+| Programming    | C# / C++                                  |
+| Google login   | Firebase Authentication with Google       |
+| Cloud database | PostgreSQL or Cloud Firestore             |
+| Game backend   | PlayFab or a custom authoritative backend |
+| Local saving   | SQLite or structured local save files     |
+| Cloud storage  | Cloud object storage                      |
+| Analytics      | Firebase Analytics or equivalent          |
+
+**My preferred starting combination:** Unity 6 + Firebase Authentication + PlayFab Cloud Save + PostgreSQL for structured game data if the game requires a custom backend.
+
+Do not automatically save large 3D models, textures, animations, or entire game scenes into the database. Save player progress and game-state information instead.
+
+### **Information that must be saved**
+
+Every player account must have a unique player ID.
+
+Save the following:
+
+- Player ID and Google account identity.
+- Selected character.
+- Character level and experience.
+- Health and survival statistics.
+- Current in-game day and time.
+- Current location and position.
+- Inventory and item quantities.
+- Weapon upgrades.
+- Armor and equipment.
+- Backpack contents.
+- Crafted objects.
+- Base location and building structures.
+- Food and water supplies.
+- Recruited survivors.
+- Survivor relationships.
+- Completed missions.
+- Unlocked locations.
+- Bosses defeated.
+- Zombie encounters.
+- Achievements.
+- Settings and preferences.
+- Last saved timestamp.
+
+### **Automatic saving**
+
+Implement:
+
+- Automatic saving every few minutes.
+- Saving after important missions.
+- Saving after obtaining rare items.
+- Saving after character upgrades.
+- Saving after base construction.
+- Saving before exiting.
+- Recovery from unexpected crashes.
+- Versioned save data and backup recovery.
+
+Cloud saving must prevent corrupted saves and conflicting overwrites. Use transaction-safe updates, save version numbers, timestamps, and server-side validation.
+
+Allow players to continue their existing game after logging in from another supported device.
+
+**Never allow a simple local save-file edit to grant unlimited resources, weapons, or character upgrades.** Important progression and inventory changes must be validated by the server.
+
+## **12. 3D graphics, animations, and sound**
+
+The game must look like a modern, realistic 3D survival simulator.
+
+[An Abandoned City Environment Made in Unreal Engine 5](https://images.openai.com/static-rsc-4/PaXCVGcBBEtQn61a3fntuM5Y3LxZvK75jkzLrKkV3DfhChbcL39PXaJ11w3cW_S-PtJ5xY6TcnuZSC8ohGciut6NzrUP-KcSld968VWNC45QLl3f9aXoyzzWG8A2zNu_DU3rwBZ4WdCM-igMC9IJ396a67OIlZf5WzenP5r0V2w?purpose=inline)
+
+[Zombie Resurrected — MontVR](https://images.openai.com/static-rsc-4/Se3rxLXSiRhUQtIwCsx7Gu9eiMMYX4d-1WePTbb158joiKZijtE59UcFB52mrFB2zBWOK6b98aWLkTrxBWuW22dMholhp5baVyPH3HptlcLfFLn6e4eXNa6H3OIxSTU8mPTGKVHFn83nVcSuGqn3WeDRXVNyoern8Bob4xsiARY?purpose=inline)
+
+[Developing Last Whisper: An Online Survival Game](https://images.openai.com/static-rsc-4/gUTjYwLm6xeJXQzuvqJrKG9iZ3i8icuc_CaKZNn97bcWJjHiFijldCAFpQYktVwWhtOGFWzqKwNCOiG-tUpm7ZdciBlBgECxPIi1O0cOF5VEuJLd0S55Zp9HGczdwma0lcRKgwVE_v_adp9xmZlLRU7Z2260af5VriZWpD3R5do?purpose=inline)
+
+18
+
+### **Graphics requirements**
+
+- Realistic human character models.
+- Detailed zombie models and mutations.
+- Realistic facial expressions.
+- Dynamic shadows.
+- Day and night lighting.
+- Weather effects.
+- Realistic vegetation.
+- Destructible environmental objects.
+- Detailed buildings and interiors.
+- Realistic weapon animations.
+- High-quality particle effects.
+- Blood and injury effects appropriate to the horror setting.
+
+### **Animation requirements**
+
+Create separate animations for:
+
+- Walking.
+- Running.
+- Sprinting.
+- Crouching.
+- Crawling.
+- Jumping.
+- Climbing.
+- Swimming.
+- Fighting.
+- Reloading.
+- Eating.
+- Drinking.
+- Healing.
+- Crafting.
+- Sleeping.
+- Harvesting.
+- Hunting.
+- Building.
+
+Zombies must have different animations based on their type and health condition.
+
+### **Audio**
+
+Implement:
+
+- Footsteps based on surface materials.
+- Realistic weapon sounds.
+- Zombie breathing and growling.
+- Environmental ambience.
+- Rain and thunder.
+- Wind and wildlife.
+- Distant screams.
+- Building noises.
+- Heartbeat when the player is in danger.
+- Character-specific dialogue.
+- Boss-specific sound effects.
+
+Use 3D spatial audio so sounds come from their actual direction and distance.
+
+## **13. Game interface and user experience**
+
+Create a modern, clean, professional interface.
+
+[Sbox UI Designer - s&box Explorer](https://images.openai.com/static-rsc-4/3gV9cEw93NreF2hPaOLwgqEsoSgrV5JpP7lTKUiD2Njrj_syWB8d0XYVayccXQvEYXqyO-NSu9JiSN14coeIbxw_GBHIx1NTyuxjJ29hZT8D5o7OtbtKpNoY-gnlRhZNbmqkF7dqIqYXZcw0sRdSfaEvIeVJGirwsSnavjzxmSc?purpose=inline)
+
+[Main inventory and equipment screen (1) | Images :: Behance](https://images.openai.com/static-rsc-4/WgMfFMnf2UjMUcSyxATkUyCYC2lcJE90VBeFNGSI-kZ0LwhqE2seoE3YFYT364q-8aItrniWvWfdfw1nIAf-dd7gQ3oRNVX-MtkMCNhgCF6YmAf-Rr0uSe8zn4B7EUlaY0JtW8QzaxEoetGVoOvJP37wkRm75-9QXzdQUl-nBPQ?purpose=inline)
+
+[Deadhikers Closed Beta on Playtester](https://images.openai.com/static-rsc-4/znbikGJ6EL4Fw_NNQCTvI9A7v32lKA1O83pJsYH3H77JdKGWgHrABfhkBlFh0pUkyeqIEhbo8HeYawAPJpQb31mOe9YArJWzE8vg59kjeKNB5bl-R2Cl4xTFuBQNi2pfEGwi_ov0aHIEWNBms7t873_cJYSMHfCkvOkSNEB1h44?purpose=inline)
+
+16
+
+Required screens:
+
+1. Login and registration.
+2. Main menu.
+3. Character selection.
+4. Character information.
+5. New game.
+6. Continue game.
+7. Survival HUD.
+8. Inventory.
+9. Equipment.
+10. Crafting.
+11. Character skills.
+12. World map.
+13. Missions.
+14. Base management.
+15. Survivor management.
+16. Zombie encyclopedia.
+17. Boss information.
+18. Achievements.
+19. Settings.
+20. Save and exit.
+
+### **Main survival HUD**
+
+Display:
+
+- Health bar.
+- Hunger.
+- Thirst.
+- Stamina.
+- Temperature.
+- Infection status.
+- Current day.
+- Current time.
+- Equipped weapon.
+- Ammunition.
+- Backpack capacity.
+
+Keep the HUD readable and avoid covering important gameplay visuals.
+
+## **14. Game modes and difficulty**
+
+Offer different survival experiences.
+
+| Mode             | Description                                 |
+| ---------------- | ------------------------------------------- |
+| Story Mode       | Main storyline and guided missions          |
+| Endless Survival | Survive for as many days as possible        |
+| Normal           | Balanced resource availability and enemies  |
+| Hard             | Scarce resources and more dangerous zombies |
+| Nightmare        | Very limited resources, aggressive enemies  |
+| Custom           | Player-adjustable survival settings         |
+
+Death should have meaningful consequences.
+
+In normal mode, allow players to load their last valid save or recover through configured checkpoints. In Hardcore mode, enable permanent character death as an optional rule, with clear warnings.
+
+Never unexpectedly delete an entire Google account or cloud save because the player dies.
+
+## **15. Achievements and long-term progression**
+
+Examples:
+
+| Achievement       | Requirement            |
+| ----------------- | ---------------------- |
+| First Sunrise     | Survive Day 1          |
+| Still Alive       | Survive 7 days         |
+| One Month Later   | Survive 30 days        |
+| Survivor          | Survive 100 days       |
+| Scavenger         | Collect 500 items      |
+| Master Crafter    | Craft 100 items        |
+| Fortress          | Build a fortified base |
+| Doctor's Hands    | Treat 50 injuries      |
+| Hunter            | Eliminate 100 zombies  |
+| Giant Slayer      | Defeat a Juggernaut    |
+| Nightmare Ender   | Defeat The Origin      |
+| Community Builder | Recruit 10 survivors   |
+
+Allow the player to unlock titles, cosmetic rewards, character outfits, and other non-pay-to-win rewards.
+
+## **16. Technical performance and security**
+
+The game must be optimized for the target platform.
+
+- Use level-of-detail systems for distant objects.
+- Implement occlusion culling.
+- Optimize textures and 3D models.
+- Use object pooling for zombies and projectiles.
+- Limit active zombie AI based on distance.
+- Use navigation meshes for intelligent movement.
+- Use asynchronous asset loading.
+- Optimize lighting and shadows.
+- Support configurable graphics quality.
+- Prevent frame-rate drops during large zombie hordes.
+- Use secure authentication tokens.
+- Validate inventory and transactions server-side.
+- Protect cloud saves from unauthorized modifications.
+- Include recovery procedures for interrupted saving.
+
+Do not generate an enormous world with every building and zombie loaded simultaneously. Stream world regions and activate AI according to player proximity.
+
+# **17. Development and implementation requirements**
+
+This is extremely important. Do not create just a beautiful menu or a nonfunctional 3D demonstration.
+
+Build the game in working stages.
+
+| Phase             | Required output                           |
+| ----------------- | ----------------------------------------- |
+| 1. Foundation     | 3D environment, player controller, camera |
+| 2. Authentication | Google login and player profiles          |
+| 3. Survival       | Hunger, thirst, health, stamina, time     |
+| 4. Inventory      | Collecting, storing, and using items      |
+| 5. Zombies        | AI, attacks, detection, mutations         |
+| 6. Combat         | Weapons, damage, armor, upgrades          |
+| 7. World          | Exploration, locations, loot              |
+| 8. Crafting       | Recipes, materials, equipment             |
+| 9. Building       | Shelters, bases, defenses                 |
+| 10. Characters    | 12 playable characters and biographies    |
+| 11. Story         | Missions, dialogue, boss encounters       |
+| 12. Persistence   | Automatic cloud saving and recovery       |
+| 13. Optimization  | Performance, testing, bug fixing          |
+| 14. Release       | Complete playable survival game           |
+
+### **Mandatory acceptance tests**
+
+The completed game must pass these tests:
+
+1. A player can sign in using a Google account.
+2. A player can select one of the playable characters.
+3. The player can start a new survival game.
+4. The player begins on Day 1.
+5. Hunger and thirst decrease with time.
+6. Food and water can be collected and consumed.
+7. Zombies detect and attack the player.
+8. Zombies have different health and attack characteristics.
+9. The player can collect and upgrade equipment.
+10. The player can craft tools and build shelters.
+11. The player can recruit survivors.
+12. Bosses have unique combat mechanics.
+13. The calendar advances correctly.
+14. The game automatically saves progress.
+15. The player can close and reopen the game without losing saved progress.
+16. The player can log in on another supported device and retrieve their cloud save.
+17. Multiple player accounts cannot access one another's private saves.
+18. The player can survive beyond Day 100.
+19. The game remains playable after extended survival sessions.
+20. No important gameplay buttons or menus are decorative or nonfunctional.
+
+**Final instruction to the game developer:**
+
+Build AFTERMATH: THE LAST SURVIVORS as a complete, immersive, realistic 3D open-world zombie survival game. Prioritize working gameplay systems, realistic environmental interaction, meaningful progression, detailed character histories, intelligent zombie AI, persistent cloud saving, and a large variety of equipment and resources.
+
+Do not substitute static images for actual 3D gameplay. Do not use placeholder buttons for essential mechanics. Do not claim a feature is implemented unless it has been tested and works.
+
+Develop the game using modular systems so new characters, zombies, weapons, locations, missions, and survival features can be added without rewriting the entire project.
+
+## **18. Research and game references**
+
+These are useful references for the gameplay design. The objective is to learn from their mechanics, not copy their characters, assets, maps, or intellectual property.
+
+[DayZ Standalone Early Access Now Available on Steam – GameSkinny](https://images.openai.com/static-rsc-4/Bw6pJ00-70LpCXt9yHWGOda4v0OLqVj-4h1MjMZnbTMPYAWVEjj-sySDTutM5w4KCUR2yXLiW-97RYe-0x2VR_4J81J1kjWjxt93MhoxwhUI47clT9OrZCNkUdtneYN4llQzqGtimvx0lJE836fOfuzT7iI5D6AmQoB6NjCnYAQ?purpose=inline)
+
+**DayZ**
+
+Open-world survival, scavenging, resource scarcity, persistent player identity, and meaningful death mechanics.
+
+[image](https://www.google.com/s2/favicons?domain=https://online.ucpress.edu\&sz=32)
+
+University of California Press+1
+
+[Project Zomboid, PC | The King of Grabs](https://images.openai.com/static-rsc-4/GXm6BqAIsCNP3goKhKBO0BI6CRXNCuenzpmlWIlLermOPpXJX4eRFyas2Faqo0OKwfEY7w7UOxQEHcxeT_89umBIYiI3zasFmc1uCRZHNgj47fJSbGtK58JSFI3AkEbAflirTI7Xgzc1cqZyjZv4L0xqiqX16EOQkmS-slteHqI?purpose=inline)
+
+**Project Zomboid**
+
+Survival needs, inventory, crafting, base preparation, and long-term survival simulation.
+
+[State of Decay 2 | The Nexus](https://images.openai.com/static-rsc-4/Kb_YMk0Y-sGRDXU_Ihq8S_lBnu8FF5zXwj5R6jECNQQ3qH_hKK_d0PE5oB-WeymXRymLMm_FkkGV7VxCmolEnp1nh9RCGfeq4Vlk0ShZVIkaoW69fzxmVENm41iV1LX4k7SZSd98v6Wc74kYwdSCA34jZTWqwaAcJTDX4UqWZFI?purpose=inline)
+
+**State of Decay 2**
+
+Survivor recruitment, settlement management, character traits, and community survival.
+
+[image](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+
+Wikipedia
+
+[Dying Light 2 review: "A big game and, for the most part, a good one" | GamesRadar+](https://images.openai.com/static-rsc-4/eAWkWDo-lwQjh_EJA3jwsJgmtiMXTH7J6E80p1VNzR6vqhE4lucd2WTXRr9VJ-ArE3OEqT2AFJuQUHWAlLRXqELt8a-dzTvf7hhGG-mz1ypZof5GNG9dmZh21AJkeuXteck_Wzf4XmEL-jZ_32-sxVWR5Zb0yPdTkqbhKvhaZ1U?purpose=inline)
+
+**Dying Light 2**
+
+Zombie behavior, movement, exploration, combat, and nighttime danger.
+
+[The Long Dark: Survival Mode | HINTERLAND](https://images.openai.com/static-rsc-4/lbySoCfYanSKnN7ZlrNRMc-M1_F7_F14sf_V8pAtDmDRcaJH6PawMBQP1eGcCqPEdIUrkoCNuOFmNfn16rxf1k17f96gkqTczqnHnJEuj1GcvWxM59HV66IjRGJU9wETW4mflWFfQeNmqTHzMz7U0vQq14fZeOBOG2qlkmSpcQY?purpose=inline)
+
+**The Long Dark**
+
+Environmental survival, weather, resource management, and player vulnerability.
+
+[image](https://www.google.com/s2/favicons?domain=https://gamestudies.org\&sz=32)
+
+gamestudies.org+1
+
+### **Academic references**
+
+These research materials can help guide the game's design:
+
+1\. Schmeink, L. (2016). *"Scavenge, Slay, Survive": The Zombie Apocalypse, Exploration, and Lived Experience in DayZ.* Science Fiction Studies, 43(1), 67–84. [Read research](https://doi.org/10.5621/sciefictstud.43.1.0067?utm_source=chatgpt.com). This discusses exploration, resource scarcity, social decisions, and survival experiences.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://online.ucpress.edu\&sz=32)
+
+University of California Press+1
+
+
+
+2\. Carter, M., Gibbs, M., & Wadley, G. *Death and Dying in DayZ.* Research examining permanent character death, player investment, and social interaction. [Research copy](https://citeseerx.ist.psu.edu/document?doi=3e8cb22e2d3ef7195d40007b37f3192b6c268532\&repid=rep1\&type=pdf\&utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://citeseerx.ist.psu.edu\&sz=32)
+
+citeseerx.ist.psu.edu
+
+
+
+3\. *The First Week of the Zombie Apocalypse: The Influences of Game Temporality* (2015). Research on how time and the first week of an outbreak influence zombie survival gameplay. [Research article](https://doi.org/10.1386/jgvw.7.1.59_1?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://intellectdiscover.com\&sz=32)
+
+Intellect Discover
+
+
+
+4\. Evans, *Too Afraid to Go Deeper: Creating Pervasive Dread Through Blended Design Structures in Subnautica and Subnautica: Below Zero.* Game Studies. Research on vulnerability, tension, exploration, and survival-game experiences. [Read article](https://gamestudies.org/2404/articles/evans?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://gamestudies.org\&sz=32)
+
+gamestudies.org
+
+
+
+# **19. My additional recommendations**
+
+There are three features I would particularly encourage adding to make this game stand out.
+
+[“Story Exploration: Surviving the Scorched Earth Social, Economic, and Cultural Dynamics in a Post-Apocalyptic World” | by Simonimpey | Feb, 2026 | Medium](https://images.openai.com/static-rsc-4/F2MKwwZqK7c1iopU9HrGFWC4IglZ4ws2yp1FxCN8EQV3ypMnJBS_GdKlLEn3O797yr7slZplaTgRyfsd0-cJ5eTfAtvOL3iYqnc0hL7B6PxJjeOuMJWR2A671qnbBOphZ5x6L0F6Cfnv265PM9qhXOpUmTB93ZmaQ6mNWqMsQDk?purpose=inline)
+
+**A. Living survivor world**
+
+NPCs should have their own daily schedules. They sleep, eat, gather resources, communicate, defend settlements, and respond to zombie attacks even when the player is not directly controlling them.
+
+[They Are Billions Game Customer Remake | Recreate a Playable Game Prototype with AI | SEELE AI](https://images.openai.com/static-rsc-4/X_Cmo2olbVMpuWYJWN_mN49cffmrMx7Z2KWd-PXhAF3BpxYp7ENPV-Ja7usc51aMnN9IILNPFvqv9nkDoD5JbvlCj1UmqdMc--mYyPrCuDkJrIQUzxXNrvPFzL-MIQZOYpjy-jOGFK_CkkUeCg7qe2AVfCkaHCae0ees56buO9Y?purpose=inline)
+
+**B. Intelligent zombie evolution**
+
+Zombies should become more dangerous through environmental and outbreak progression. Introduce rare mutations, stronger hordes, and new boss variants without simply increasing every zombie's health.
+
+[Buy Surviving the Aftermath PC Steam - Strategy - WinGameStore](https://images.openai.com/static-rsc-4/TUbVCKmxqIygUkC4UIVdZt2SwYZvPCMfCN3tH4Zq4ZjYBw1-tkiiOTiLSRv04XBqY7NEUvXlVB8Miypb88P_Ro9CFNjlC7WfmpXdwsBVlQ_CxXebbApQ77RJR7NJePhQlXDjB9xCqz0j-roAxtGA7_Oey4eMYvxQZGfW6AxJ8PI?purpose=inline)
+
+**C. A world that remembers**
+
+If the player abandons a location, the environment should continue changing. Settlements can collapse, resources can disappear, survivors can relocate, and abandoned bases can become zombie territory.
+
+**One important development consideration:** A complete game with this scope is a substantial project. I would build a playable vertical slice first: Day 1, one explorable city district, three playable characters, basic survival, five zombie types, inventory, crafting, and cloud saving. Once those systems work together, expand toward the full 12-character roster, boss ecosystem, and endless world.
+
+That way, you get an actual playable survival game instead of a large collection of unfinished features.

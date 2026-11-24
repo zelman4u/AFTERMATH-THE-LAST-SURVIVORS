@@ -1,0 +1,6 @@
+{
+  "name": "AFTERMATH: The Last Survivors",
+  "description": "3D open-world zombie survival game with 12 playable survivors, realistic survival needs, crafting, base building, mutated zombie bosses, and Google cloud saves.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

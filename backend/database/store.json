@@ -1,0 +1,1047 @@
+{
+  "users": {},
+  "players": {
+    "guest_unit_test_suite": {
+      "_id": "guest_unit_test_suite",
+      "uid": "guest_unit_test_suite",
+      "activeCharacterId": "ethan_walker",
+      "highestDay": 9,
+      "totalZombieKills": 0,
+      "totalScore": 0,
+      "unlockedAchievements": [],
+      "updatedAtIso": "2026-11-24T22:30:32.371Z"
+    },
+    "guest_37b7wlhrpn2x": {
+      "_id": "guest_37b7wlhrpn2x",
+      "uid": "guest_37b7wlhrpn2x",
+      "activeCharacterId": "ethan_walker",
+      "highestDay": 1,
+      "totalZombieKills": 0,
+      "totalScore": 0,
+      "unlockedAchievements": [],
+      "updatedAtIso": "2026-11-24T21:34:10.150Z"
+    },
+    "IlGCredTYIdSI5RdTka5JtTKdPf2": {
+      "_id": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "uid": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "activeCharacterId": "ethan_walker",
+      "highestDay": 1,
+      "totalZombieKills": 1,
+      "totalScore": 80,
+      "unlockedAchievements": [],
+      "updatedAtIso": "2026-11-24T21:44:20.965Z"
+    }
+  },
+  "inventories": {
+    "guest_37b7wlhrpn2x::slot_1": {
+      "_id": "guest_37b7wlhrpn2x::slot_1",
+      "ownerId": "guest_37b7wlhrpn2x",
+      "saveId": "slot_1",
+      "items": [
+        {
+          "itemId": "assault_rifle",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "combat_knife",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "tactical_vest",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "small_backpack",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "rifle_ammo",
+          "qty": 45
+        },
+        {
+          "itemId": "canned_beans",
+          "qty": 2
+        },
+        {
+          "itemId": "bottled_water",
+          "qty": 2
+        },
+        {
+          "itemId": "bandage",
+          "qty": 2
+        }
+      ],
+      "totalWeightKg": 10.4,
+      "updatedAtIso": "2026-11-24T21:34:10.150Z"
+    },
+    "IlGCredTYIdSI5RdTka5JtTKdPf2::active": {
+      "_id": "IlGCredTYIdSI5RdTka5JtTKdPf2::active",
+      "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "saveId": "active",
+      "items": [
+        {
+          "itemId": "assault_rifle",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "combat_knife",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "tactical_vest",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "small_backpack",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "hunting_knife",
+          "qty": 1,
+          "upgradeLevel": 1,
+          "durability": 100
+        },
+        {
+          "itemId": "rifle_ammo",
+          "qty": 45
+        },
+        {
+          "itemId": "canned_beans",
+          "qty": 2
+        },
+        {
+          "itemId": "bottled_water",
+          "qty": 2
+        },
+        {
+          "itemId": "bandage",
+          "qty": 2
+        }
+      ],
+      "totalWeightKg": 10.9,
+      "updatedAtIso": "2026-11-24T21:44:20.965Z"
+    }
+  },
+  "worlds": {
+    "guest_37b7wlhrpn2x::slot_1": {
+      "_id": "guest_37b7wlhrpn2x::slot_1",
+      "ownerId": "guest_37b7wlhrpn2x",
+      "saveId": "slot_1",
+      "day": 1,
+      "timeOfDay": 8,
+      "weather": "clear",
+      "discoveredZoneIds": [
+        "safehouse"
+      ],
+      "defeatedBossIds": [],
+      "recruitedIds": [],
+      "updatedAtIso": "2026-11-24T21:34:10.150Z"
+    },
+    "IlGCredTYIdSI5RdTka5JtTKdPf2::active": {
+      "_id": "IlGCredTYIdSI5RdTka5JtTKdPf2::active",
+      "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "saveId": "active",
+      "day": 1,
+      "timeOfDay": 9.17,
+      "weather": "clear",
+      "discoveredZoneIds": [
+        "safehouse",
+        "underground_coast"
+      ],
+      "defeatedBossIds": [],
+      "recruitedIds": [],
+      "updatedAtIso": "2026-11-24T21:44:20.965Z"
+    }
+  },
+  "bases": {
+    "guest_37b7wlhrpn2x::slot_1": {
+      "_id": "guest_37b7wlhrpn2x::slot_1",
+      "ownerId": "guest_37b7wlhrpn2x",
+      "saveId": "slot_1",
+      "structures": [
+        {
+          "uid": "init_wall_1",
+          "structureId": "wood_wall",
+          "x": -12.5,
+          "z": -3.5,
+          "rotationY": 1.5707963267948966,
+          "hp": 220,
+          "maxHp": 220
+        },
+        {
+          "uid": "init_wall_2",
+          "structureId": "wood_wall",
+          "x": 8.5,
+          "z": -3.5,
+          "rotationY": 1.5707963267948966,
+          "hp": 220,
+          "maxHp": 220
+        }
+      ],
+      "updatedAtIso": "2026-11-24T21:34:10.150Z"
+    },
+    "IlGCredTYIdSI5RdTka5JtTKdPf2::active": {
+      "_id": "IlGCredTYIdSI5RdTka5JtTKdPf2::active",
+      "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "saveId": "active",
+      "structures": [
+        {
+          "uid": "init_wall_1",
+          "structureId": "wood_wall",
+          "x": -12.5,
+          "z": -3.5,
+          "rotationY": 1.5707963267948966,
+          "hp": 220,
+          "maxHp": 220
+        },
+        {
+          "uid": "init_wall_2",
+          "structureId": "wood_wall",
+          "x": 8.5,
+          "z": -3.5,
+          "rotationY": 1.5707963267948966,
+          "hp": 220,
+          "maxHp": 220
+        }
+      ],
+      "updatedAtIso": "2026-11-24T21:44:20.965Z"
+    }
+  },
+  "gamesaves": {
+    "guest_37b7wlhrpn2x::slot_1": {
+      "saveId": "slot_1",
+      "ownerId": "guest_37b7wlhrpn2x",
+      "version": 2,
+      "characterId": "ethan_walker",
+      "mode": "story",
+      "difficulty": "normal",
+      "day": 1,
+      "timeOfDay": 8,
+      "weather": "clear",
+      "payload": {
+        "stats": {
+          "health": 115,
+          "maxHealth": 115,
+          "hunger": 96,
+          "thirst": 95,
+          "stamina": 105,
+          "maxStamina": 105,
+          "energy": 98,
+          "temperature": 36.8,
+          "infection": 0,
+          "blood": 100,
+          "sanity": 95,
+          "bleeding": false,
+          "exhausted": false,
+          "hypothermia": false,
+          "level": 1,
+          "xp": 0,
+          "skillCombat": 1,
+          "skillMedical": 1,
+          "skillCrafting": 1,
+          "skillSurvival": 1
+        },
+        "position": {
+          "x": 0,
+          "z": 6
+        },
+        "inventory": [
+          {
+            "itemId": "assault_rifle",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "combat_knife",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "tactical_vest",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "small_backpack",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "rifle_ammo",
+            "qty": 45
+          },
+          {
+            "itemId": "canned_beans",
+            "qty": 2
+          },
+          {
+            "itemId": "bottled_water",
+            "qty": 2
+          },
+          {
+            "itemId": "bandage",
+            "qty": 2
+          }
+        ],
+        "equippedWeaponId": "assault_rifle",
+        "equippedMeleeId": "combat_knife",
+        "equippedArmorId": "tactical_vest",
+        "equippedBackpackId": "small_backpack",
+        "ammoInMag": {
+          "assault_rifle": 30
+        },
+        "structures": [
+          {
+            "uid": "init_wall_1",
+            "structureId": "wood_wall",
+            "x": -12.5,
+            "z": -3.5,
+            "rotationY": 1.5707963267948966,
+            "hp": 220,
+            "maxHp": 220
+          },
+          {
+            "uid": "init_wall_2",
+            "structureId": "wood_wall",
+            "x": 8.5,
+            "z": -3.5,
+            "rotationY": 1.5707963267948966,
+            "hp": 220,
+            "maxHp": 220
+          }
+        ],
+        "recruitedIds": [],
+        "survivorTasks": {},
+        "survivorTrust": {},
+        "completedChapterIds": [],
+        "defeatedBossIds": [],
+        "unlockedAchievementIds": [],
+        "discoveredZoneIds": [
+          "safehouse"
+        ],
+        "lootedContainerIds": [],
+        "zombieKills": 0,
+        "itemsCollected": 0,
+        "itemsCrafted": 0,
+        "injuriesTreated": 0,
+        "workbenchLevel": 1,
+        "inVehicle": false,
+        "vehicleFuel": 65,
+        "vehicleHealth": 100,
+        "score": 0
+      },
+      "updatedAtIso": "2026-11-24T21:34:10.150Z",
+      "_id": "guest_37b7wlhrpn2x::slot_1",
+      "checksum": "75617af5028268a1",
+      "syncSource": "web"
+    },
+    "IlGCredTYIdSI5RdTka5JtTKdPf2::active": {
+      "saveId": "active",
+      "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "version": 4,
+      "characterId": "ethan_walker",
+      "mode": "story",
+      "difficulty": "normal",
+      "day": 1,
+      "timeOfDay": 9.17,
+      "weather": "clear",
+      "payload": {
+        "stats": {
+          "health": 0,
+          "maxHealth": 115,
+          "hunger": 91.10015400001171,
+          "thirst": 87.65023100001747,
+          "stamina": 105,
+          "maxStamina": 105,
+          "energy": 95.20008800000667,
+          "temperature": 37.19996577941339,
+          "infection": 26,
+          "blood": 100,
+          "sanity": 95,
+          "bleeding": false,
+          "exhausted": false,
+          "hypothermia": false,
+          "level": 1,
+          "xp": 80,
+          "skillCombat": 1,
+          "skillMedical": 1,
+          "skillCrafting": 1,
+          "skillSurvival": 1
+        },
+        "position": {
+          "x": -1.8094559839319189,
+          "z": 52.76616686845627
+        },
+        "inventory": [
+          {
+            "itemId": "assault_rifle",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "combat_knife",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "tactical_vest",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "small_backpack",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "hunting_knife",
+            "qty": 1,
+            "upgradeLevel": 1,
+            "durability": 100
+          },
+          {
+            "itemId": "rifle_ammo",
+            "qty": 45
+          },
+          {
+            "itemId": "canned_beans",
+            "qty": 2
+          },
+          {
+            "itemId": "bottled_water",
+            "qty": 2
+          },
+          {
+            "itemId": "bandage",
+            "qty": 2
+          }
+        ],
+        "equippedWeaponId": "assault_rifle",
+        "equippedMeleeId": "combat_knife",
+        "equippedArmorId": "tactical_vest",
+        "equippedBackpackId": "small_backpack",
+        "ammoInMag": {
+          "assault_rifle": 0
+        },
+        "structures": [
+          {
+            "uid": "init_wall_1",
+            "structureId": "wood_wall",
+            "x": -12.5,
+            "z": -3.5,
+            "rotationY": 1.5707963267948966,
+            "hp": 220,
+            "maxHp": 220
+          },
+          {
+            "uid": "init_wall_2",
+            "structureId": "wood_wall",
+            "x": 8.5,
+            "z": -3.5,
+            "rotationY": 1.5707963267948966,
+            "hp": 220,
+            "maxHp": 220
+          }
+        ],
+        "recruitedIds": [],
+        "survivorTasks": {},
+        "survivorTrust": {},
+        "completedChapterIds": [],
+        "defeatedBossIds": [],
+        "unlockedAchievementIds": [],
+        "discoveredZoneIds": [
+          "safehouse",
+          "underground_coast"
+        ],
+        "lootedContainerIds": [],
+        "zombieKills": 1,
+        "itemsCollected": 0,
+        "itemsCrafted": 0,
+        "injuriesTreated": 0,
+        "workbenchLevel": 1,
+        "inVehicle": false,
+        "vehicleFuel": 65,
+        "vehicleHealth": 100,
+        "score": 80
+      },
+      "updatedAtIso": "2026-11-24T21:44:20.965Z",
+      "_id": "IlGCredTYIdSI5RdTka5JtTKdPf2::active",
+      "checksum": "9b56a777d285f77f",
+      "syncSource": "web"
+    }
+  },
+  "savebackups": {
+    "IlGCredTYIdSI5RdTka5JtTKdPf2::active": [
+      {
+        "backupId": "bkp_1795556660965_3",
+        "saveId": "active",
+        "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+        "version": 3,
+        "day": 1,
+        "characterId": "ethan_walker",
+        "zoneId": "underground_coast",
+        "reason": "manual",
+        "createdAtIso": "2026-11-24T21:44:20.965Z",
+        "snapshot": {
+          "saveId": "active",
+          "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+          "version": 3,
+          "characterId": "ethan_walker",
+          "mode": "story",
+          "difficulty": "normal",
+          "day": 1,
+          "timeOfDay": 9.17,
+          "weather": "clear",
+          "payload": {
+            "stats": {
+              "health": 0,
+              "maxHealth": 115,
+              "hunger": 91.10015400001171,
+              "thirst": 87.65023100001747,
+              "stamina": 105,
+              "maxStamina": 105,
+              "energy": 95.20008800000667,
+              "temperature": 37.19996577941339,
+              "infection": 26,
+              "blood": 100,
+              "sanity": 95,
+              "bleeding": false,
+              "exhausted": false,
+              "hypothermia": false,
+              "level": 1,
+              "xp": 80,
+              "skillCombat": 1,
+              "skillMedical": 1,
+              "skillCrafting": 1,
+              "skillSurvival": 1
+            },
+            "position": {
+              "x": -1.8094559839319189,
+              "z": 52.76616686845627
+            },
+            "inventory": [
+              {
+                "itemId": "assault_rifle",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "combat_knife",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "tactical_vest",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "small_backpack",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "hunting_knife",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "rifle_ammo",
+                "qty": 45
+              },
+              {
+                "itemId": "canned_beans",
+                "qty": 2
+              },
+              {
+                "itemId": "bottled_water",
+                "qty": 2
+              },
+              {
+                "itemId": "bandage",
+                "qty": 2
+              }
+            ],
+            "equippedWeaponId": "assault_rifle",
+            "equippedMeleeId": "combat_knife",
+            "equippedArmorId": "tactical_vest",
+            "equippedBackpackId": "small_backpack",
+            "ammoInMag": {
+              "assault_rifle": 0
+            },
+            "structures": [
+              {
+                "uid": "init_wall_1",
+                "structureId": "wood_wall",
+                "x": -12.5,
+                "z": -3.5,
+                "rotationY": 1.5707963267948966,
+                "hp": 220,
+                "maxHp": 220
+              },
+              {
+                "uid": "init_wall_2",
+                "structureId": "wood_wall",
+                "x": 8.5,
+                "z": -3.5,
+                "rotationY": 1.5707963267948966,
+                "hp": 220,
+                "maxHp": 220
+              }
+            ],
+            "recruitedIds": [],
+            "survivorTasks": {},
+            "survivorTrust": {},
+            "completedChapterIds": [],
+            "defeatedBossIds": [],
+            "unlockedAchievementIds": [],
+            "discoveredZoneIds": [
+              "safehouse",
+              "underground_coast"
+            ],
+            "lootedContainerIds": [],
+            "zombieKills": 1,
+            "itemsCollected": 0,
+            "itemsCrafted": 0,
+            "injuriesTreated": 0,
+            "workbenchLevel": 1,
+            "inVehicle": false,
+            "vehicleFuel": 65,
+            "vehicleHealth": 100,
+            "score": 80
+          },
+          "updatedAtIso": "2026-11-24T21:44:20.089Z",
+          "_id": "IlGCredTYIdSI5RdTka5JtTKdPf2::active",
+          "checksum": "9b56a777d285f77f",
+          "syncSource": "web"
+        }
+      },
+      {
+        "backupId": "bkp_1795556660089_2",
+        "saveId": "active",
+        "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+        "version": 2,
+        "day": 1,
+        "characterId": "ethan_walker",
+        "zoneId": "safehouse",
+        "reason": "manual",
+        "createdAtIso": "2026-11-24T21:44:20.089Z",
+        "snapshot": {
+          "saveId": "active",
+          "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+          "version": 2,
+          "characterId": "ethan_walker",
+          "mode": "story",
+          "difficulty": "normal",
+          "day": 1,
+          "timeOfDay": 8,
+          "weather": "clear",
+          "payload": {
+            "stats": {
+              "health": 115,
+              "maxHealth": 115,
+              "hunger": 96,
+              "thirst": 95,
+              "stamina": 105,
+              "maxStamina": 105,
+              "energy": 98,
+              "temperature": 36.8,
+              "infection": 0,
+              "blood": 100,
+              "sanity": 95,
+              "bleeding": false,
+              "exhausted": false,
+              "hypothermia": false,
+              "level": 1,
+              "xp": 0,
+              "skillCombat": 1,
+              "skillMedical": 1,
+              "skillCrafting": 1,
+              "skillSurvival": 1
+            },
+            "position": {
+              "x": 0,
+              "z": 6
+            },
+            "inventory": [
+              {
+                "itemId": "assault_rifle",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "combat_knife",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "tactical_vest",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "small_backpack",
+                "qty": 1,
+                "upgradeLevel": 1,
+                "durability": 100
+              },
+              {
+                "itemId": "rifle_ammo",
+                "qty": 45
+              },
+              {
+                "itemId": "canned_beans",
+                "qty": 2
+              },
+              {
+                "itemId": "bottled_water",
+                "qty": 2
+              },
+              {
+                "itemId": "bandage",
+                "qty": 2
+              }
+            ],
+            "equippedWeaponId": "assault_rifle",
+            "equippedMeleeId": "combat_knife",
+            "equippedArmorId": "tactical_vest",
+            "equippedBackpackId": "small_backpack",
+            "ammoInMag": {
+              "assault_rifle": 30
+            },
+            "structures": [
+              {
+                "uid": "init_wall_1",
+                "structureId": "wood_wall",
+                "x": -12.5,
+                "z": -3.5,
+                "rotationY": 1.5707963267948966,
+                "hp": 220,
+                "maxHp": 220
+              },
+              {
+                "uid": "init_wall_2",
+                "structureId": "wood_wall",
+                "x": 8.5,
+                "z": -3.5,
+                "rotationY": 1.5707963267948966,
+                "hp": 220,
+                "maxHp": 220
+              }
+            ],
+            "recruitedIds": [],
+            "survivorTasks": {},
+            "survivorTrust": {},
+            "completedChapterIds": [],
+            "defeatedBossIds": [],
+            "unlockedAchievementIds": [],
+            "discoveredZoneIds": [
+              "safehouse"
+            ],
+            "lootedContainerIds": [],
+            "zombieKills": 0,
+            "itemsCollected": 0,
+            "itemsCrafted": 0,
+            "injuriesTreated": 0,
+            "workbenchLevel": 1,
+            "inVehicle": false,
+            "vehicleFuel": 65,
+            "vehicleHealth": 100,
+            "score": 0
+          },
+          "updatedAtIso": "2026-11-24T21:43:41.232Z",
+          "_id": "IlGCredTYIdSI5RdTka5JtTKdPf2::active",
+          "checksum": "75617af5028268a1",
+          "syncSource": "web"
+        }
+      }
+    ]
+  },
+  "achievements": {
+    "guest_unit_test_suite": [],
+    "guest_37b7wlhrpn2x": [],
+    "IlGCredTYIdSI5RdTka5JtTKdPf2": []
+  },
+  "auditLogs": [
+    {
+      "id": "log_1795559432371_30",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v3",
+      "timestampIso": "2026-11-24T22:30:32.371Z"
+    },
+    {
+      "id": "log_1795559432361_955",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_2",
+      "status": "accepted",
+      "detail": "Day 9 (unity), v1",
+      "timestampIso": "2026-11-24T22:30:32.361Z"
+    },
+    {
+      "id": "log_1795559432361_345",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_AUTO_slot_1",
+      "status": "accepted",
+      "detail": "Day 5 (web), v2",
+      "timestampIso": "2026-11-24T22:30:32.361Z"
+    },
+    {
+      "id": "log_1795559432360_277",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v1",
+      "timestampIso": "2026-11-24T22:30:32.360Z"
+    },
+    {
+      "id": "log_1795558709710_717",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v3",
+      "timestampIso": "2026-11-24T22:18:29.710Z"
+    },
+    {
+      "id": "log_1795558709702_216",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_2",
+      "status": "accepted",
+      "detail": "Day 9 (unity), v1",
+      "timestampIso": "2026-11-24T22:18:29.702Z"
+    },
+    {
+      "id": "log_1795558709702_313",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_AUTO_slot_1",
+      "status": "accepted",
+      "detail": "Day 5 (web), v2",
+      "timestampIso": "2026-11-24T22:18:29.702Z"
+    },
+    {
+      "id": "log_1795558709701_386",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v1",
+      "timestampIso": "2026-11-24T22:18:29.701Z"
+    },
+    {
+      "id": "log_1795557047310_570",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v3",
+      "timestampIso": "2026-11-24T21:50:47.310Z"
+    },
+    {
+      "id": "log_1795557047282_122",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_2",
+      "status": "accepted",
+      "detail": "Day 9 (unity), v1",
+      "timestampIso": "2026-11-24T21:50:47.282Z"
+    },
+    {
+      "id": "log_1795557047281_362",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_AUTO_slot_1",
+      "status": "accepted",
+      "detail": "Day 5 (web), v2",
+      "timestampIso": "2026-11-24T21:50:47.281Z"
+    },
+    {
+      "id": "log_1795557047280_623",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v1",
+      "timestampIso": "2026-11-24T21:50:47.280Z"
+    },
+    {
+      "id": "log_1795556660966_214",
+      "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "action": "SAVE_MANUAL_active",
+      "status": "accepted",
+      "detail": "Day 1 (web), v4",
+      "timestampIso": "2026-11-24T21:44:20.966Z"
+    },
+    {
+      "id": "log_1795556660090_132",
+      "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "action": "SAVE_MANUAL_active",
+      "status": "accepted",
+      "detail": "Day 1 (web), v3",
+      "timestampIso": "2026-11-24T21:44:20.090Z"
+    },
+    {
+      "id": "log_1795556621233_156",
+      "ownerId": "IlGCredTYIdSI5RdTka5JtTKdPf2",
+      "action": "SAVE_MANUAL_active",
+      "status": "accepted",
+      "detail": "Day 1 (web), v2",
+      "timestampIso": "2026-11-24T21:43:41.233Z"
+    },
+    {
+      "id": "log_1795556243655_332",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v3",
+      "timestampIso": "2026-11-24T21:37:23.655Z"
+    },
+    {
+      "id": "log_1795556243647_87",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_2",
+      "status": "accepted",
+      "detail": "Day 9 (unity), v1",
+      "timestampIso": "2026-11-24T21:37:23.647Z"
+    },
+    {
+      "id": "log_1795556243646_395",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_AUTO_slot_1",
+      "status": "accepted",
+      "detail": "Day 5 (web), v2",
+      "timestampIso": "2026-11-24T21:37:23.646Z"
+    },
+    {
+      "id": "log_1795556243645_378",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v1",
+      "timestampIso": "2026-11-24T21:37:23.646Z"
+    },
+    {
+      "id": "log_1795556050151_524",
+      "ownerId": "guest_37b7wlhrpn2x",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 1 (web), v2",
+      "timestampIso": "2026-11-24T21:34:10.151Z"
+    },
+    {
+      "id": "log_1795555745626_32",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v3",
+      "timestampIso": "2026-11-24T21:29:05.626Z"
+    },
+    {
+      "id": "log_1795555745618_725",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_2",
+      "status": "accepted",
+      "detail": "Day 9 (unity), v1",
+      "timestampIso": "2026-11-24T21:29:05.618Z"
+    },
+    {
+      "id": "log_1795555745617_346",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_AUTO_slot_1",
+      "status": "accepted",
+      "detail": "Day 5 (web), v2",
+      "timestampIso": "2026-11-24T21:29:05.617Z"
+    },
+    {
+      "id": "log_1795555745617_947",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v1",
+      "timestampIso": "2026-11-24T21:29:05.617Z"
+    },
+    {
+      "id": "log_1795554445957_80",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v3",
+      "timestampIso": "2026-11-24T21:07:25.957Z"
+    },
+    {
+      "id": "log_1795554445948_527",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_2",
+      "status": "accepted",
+      "detail": "Day 9 (unity), v1",
+      "timestampIso": "2026-11-24T21:07:25.948Z"
+    },
+    {
+      "id": "log_1795554445948_790",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_AUTO_slot_1",
+      "status": "accepted",
+      "detail": "Day 5 (web), v2",
+      "timestampIso": "2026-11-24T21:07:25.948Z"
+    },
+    {
+      "id": "log_1795554445947_278",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v1",
+      "timestampIso": "2026-11-24T21:07:25.947Z"
+    },
+    {
+      "id": "log_1795554262584_244",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_2",
+      "status": "accepted",
+      "detail": "Day 9 (unity), v1",
+      "timestampIso": "2026-11-24T21:04:22.584Z"
+    },
+    {
+      "id": "log_1795554262584_447",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_AUTO_slot_1",
+      "status": "accepted",
+      "detail": "Day 5 (web), v2",
+      "timestampIso": "2026-11-24T21:04:22.584Z"
+    },
+    {
+      "id": "log_1795554262583_92",
+      "ownerId": "guest_unit_test_suite",
+      "action": "SAVE_MANUAL_slot_1",
+      "status": "accepted",
+      "detail": "Day 2 (web), v1",
+      "timestampIso": "2026-11-24T21:04:22.583Z"
+    }
+  ]
+}
